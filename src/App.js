@@ -9,6 +9,7 @@ import "../node_modules/bootstrap/dist/css/bootstrap.css";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
+import App1 from "./components/Task-6/App1";
 class App extends Component {
   render() {
     return (
@@ -20,6 +21,7 @@ class App extends Component {
             <Nav.Link href="/task3">Task 3</Nav.Link>
             <Nav.Link href="/task4">Task 4</Nav.Link>
             <Nav.Link href="/task5">Task 5</Nav.Link>
+            <Nav.Link href="/task6">Task 6</Nav.Link>
           </Container>
         </Navbar>
         <Routes>
@@ -28,6 +30,7 @@ class App extends Component {
           <Route exact path="/task3" element={<ColorPicker />} />
           <Route exact path="/task4" element={<UserTable />} />
           <Route exact path="/task5" element={<AgeCalculator />} />
+          <Route exact path="/task6" element={<App1 />} />
         </Routes>
       </Router>
     );
