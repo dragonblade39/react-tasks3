@@ -25,12 +25,12 @@ class App extends Component {
           </Container>
         </Navbar>
         <Routes>
-          <Route exact path="/task1" element={<Responsive />}></Route>
-          <Route exact path="/task2" element={<Calculator />} />
-          <Route exact path="/task3" element={<ColorPicker />} />
-          <Route exact path="/task4" element={<UserTable />} />
-          <Route exact path="/task5" element={<AgeCalculator />} />
-          <Route exact path="/task6" element={<App1 />} />
+          <Route path="/task1" element={<Responsive />}></Route>
+          <Route path="/task2" element={<Calculator />} />
+          <Route path="/task3" element={<ColorPicker />} />
+          <Route path="/task4" element={<UserTable />} />
+          <Route path="/task5" element={<AgeCalculator />} />
+          <Route path="/task6" element={<App1 />} />
         </Routes>
       </Router>
     );
