@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Responsive from "./components/Task-1/Responsive";
 import Calculator from "./components/Task-2/Calculator";
 import ColorPicker from "./components/Task-3/ColorPicker";
